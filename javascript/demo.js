@@ -82,3 +82,8 @@ function operators(){
     console.log("x OR y: " + (x || y));
     console.log("NOT x: " + (!x));
 }
+let j=10;
+for(i=1;i<=j;i++){
+    document.writeln(i + "<br>");
+    j++
+}
