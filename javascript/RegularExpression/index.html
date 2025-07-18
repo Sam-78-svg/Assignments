@@ -7,6 +7,7 @@
 </head>
 <body>
     <!-- regular expession is a sequence of character that is used to mach a pattern in string -->
+
 </body>
 <script>
     // 1 search pattern
@@ -49,6 +50,10 @@
     console.log(name.test('abcd@gmail.com'));
     const pass = /^(?=.*[\w])(?=.*[A-Z])(?=.*\d)(?=.*\W).{6,15}$/
     console.log(pass.test("Sangam@91"));
+    const atm = /^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}$/;
+    console.log(atm.test("1230-2123-2112-2121"));
+
+
 
 </script>
 </html>
